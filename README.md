@@ -1,6 +1,6 @@
 # SPRING SECURITY + JWT 기능구현 연습
 
-***
+
 ### ⭐️ 참고 강의
 
 - 개발자 유미 - [스프링 시큐리티 JWT](https://www.youtube.com/watch?v=NPRh2v7PTZg&list=PLJkjrxxiBSFCcOjy0AAVGNtIa08VLk1EJ)
