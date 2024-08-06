@@ -1,16 +1,13 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:securityJWT;MODE=MYSQL
+    url: jdbc:h2:tcp://localhost/~/security;MODE=MYSQL;NON_KEYWORDS=USER
     username: sa
     password:
     driver-class-name: org.h2.Driver
-  h2:
-    console:
-      enabled: true
 
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: create
     properties:
       hibernate:
         format_sql: true
